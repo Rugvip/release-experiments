@@ -1,0 +1,17 @@
+{
+  "name": "root",
+  "version": "0.0.0",
+  "main": "index.js",
+  "private": true,
+  "repository": "git@github.com:Rugvip/release-experiments.git",
+  "author": "Patrik Oldsberg <poldsberg@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@changesets/cli": "^2.14.0"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  }
+}
