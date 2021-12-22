@@ -6,6 +6,10 @@
   "repository": "git@github.com:Rugvip/release-experiments.git",
   "author": "Patrik Oldsberg <poldsberg@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "pre": "changeset pre",
+    "c": "changeset"
+  },
   "dependencies": {
     "@changesets/cli": "^2.14.0"
   },
