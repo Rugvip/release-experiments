@@ -87,6 +87,8 @@ are only available in pre-releases of 1.x stuff?
 
 Well let's just have 0.x packages depend on the pre-releases then
 
+EDIT: NOPE, we don't allow 0.x packages to depend things from 1.x pre-releases
+
 Isolated non-prerelease:
 
 - Delete all of the changesets listed in pre.json and pre.json itself
